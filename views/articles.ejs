@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>All Articles</h1>
+    <hr />
+    <div style="background-color: aquamarine; color: black; padding: 24px;">
+        <% for( let art of allArticles ) { %>
+            <h1 style="color: blueviolet;"><%= art.title %></h1>
+            <h5> <%= art.body %> </h5>
+            <br>
+        <% } %>
+    </div>
+</body>
+</html>
